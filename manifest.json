@@ -1,11 +1,11 @@
 {
-    "name": "Cocktails & Conversation",
-    "short_name": "C&C",
+    "name": "events121.com",
+    "short_name": "events121",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Award winning event organizer leading to real connections",
+    "description": "Organize and manage your events, with a better post-event experience and smarter follow-ups.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
