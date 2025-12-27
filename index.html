@@ -67,7 +67,6 @@
       try {
         window.stripeWebInstance = Stripe(publishableKey);
         window.stripeElements = window.stripeWebInstance.elements();
-        console.log('Stripe initialized');
         return true;
       } catch (error) {
         console.error('Failed to initialize Stripe for web:', error);
@@ -130,7 +129,6 @@
           }
         });
 
-        console.log('Card element created');
         return true;
       } catch (error) {
         console.error('Failed to create card element:', error);
